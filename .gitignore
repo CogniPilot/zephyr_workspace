@@ -1,3 +1,4 @@
 modules/
 zephyr/
 tools/
+.west
