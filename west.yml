@@ -1,0 +1,19 @@
+# Copyright (c) 2023 CogniPilot Foundation
+# SPDX-License-Identifier: Apache-2.0
+
+manifest:
+
+  projects:
+    - name: zephyr
+      url: https://github.com/zephyrproject-rtos/zephyr
+      west-commands: scripts/west-commands.yml
+      revision: ca6d02147d352a25cb935770c6c87978a1fe49b5  ## main on 12/16/22
+      import:
+        - name-allowlist:
+          - mbedtls
+          - net-tools
+          - hal_nxp
+#    - name: zenoh-pico
+#      url: https://github.com/CogniPilot/zenoh-pico.git
+#      revision: zephyr-3.2
+#      path: modules/zenoh-pico/zenoh-pico
