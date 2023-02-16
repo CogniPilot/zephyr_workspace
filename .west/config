@@ -1,0 +1,4 @@
+[manifest]
+path = west_config
+file = west.yml
+
